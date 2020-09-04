@@ -1,0 +1,11 @@
+# Directories
+.vs/
+**/bin/
+!vendor/bin/premake/
+bin-int/
+
+# Files
+*.sln
+*.vcxproj
+*.user 
+*.filters
