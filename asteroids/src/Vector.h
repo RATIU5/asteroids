@@ -7,7 +7,7 @@ class vec2
 public:
 	vec2()
 		: x(0.0), y(0.0) {}
-	vec2(const bool& check) 
+	vec2(const bool& check)
 		: x(0.0), y(0.0) {}
 	vec2(const float& x, const float& y)
 		: x(x), y(y) {}
@@ -54,4 +54,3 @@ vec2  fromAngle(float angle);
 void  constrain(vec2 value, vec2 min, vec2 max);
 float dist(const vec2& loc1, const vec2& loc2);
 float angleBetween(vec2 v1, vec2 v2);
-
